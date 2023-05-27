@@ -1,0 +1,194 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Index header and footer section */
+.header{
+    width: 100%;
+    height:100vh;
+    background-image:url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/16-book-csa-images.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+.container{
+background-color: #0a183d;
+
+height: 60px;
+width: 100%;
+padding: 10px 10%;
+}
+nav{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative
+}
+.logo{
+
+border-radius: 136px 135px;
+width: 88px;
+margin: -10px 0 -3px -80px;
+    
+}
+nav ul li{
+
+    display: inline-block;
+    list-style: none;
+    margin: 12px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width:0;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left:0px;
+    bottom:-6px;
+    transition: 0.5s;
+}
+nav Ul li a:hover::after{
+    width: 100%;
+}
+.image-text{
+  
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    position: relative;
+}
+.image-text h1{
+    position: absolute;
+    top:550%;
+}
+.button{
+    position: absolute;
+    top:500px;
+}
+
+.button{
+    padding: 10px 30px;
+    color:#fff;
+    font-size: 20px;
+    background-color:#2874a6 ;
+    cursor: pointer;
+    /* position: relative; */
+    border: none;
+    text-decoration: none;
+    border-radius: 50px;
+  
+}
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+.button:active {
+    background-color: #aedbf9;
+    padding: 12px 35px;
+    transform: translateY(4px);
+  }
+  .footer{
+   
+    /* height:4rem;
+    background-color: #0a183d;
+ margin-top: auto;
+    width: 100vw; 
+    overflow-x: hidden; */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0a183d;
+    color: white;
+    text-align: center;
+  }
+  .footer p{
+    color:#fff;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 4rem;
+  }
+  /* View Notes Section */
+
+
+
+  .viewNotes{
+    margin: 40px;
+  }
+
+  .details {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .details td, .details th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .details tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .details tr:hover {background-color: #ddd;}
+  
+  .details th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #3f6001;
+    color: white;
+  }
+
+  /* Upload Form section */
+  #uploadForm{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border:10px solid #2874a6 ;
+    padding:10px;
+    margin: 100px;
+  }
+  label{
+font-size: 20px;
+padding: 10px;
+  }
+  input, textarea{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+ 
+  }
+/*
+
+
+.header-text{
+    margin:20px;
+    font-size: 30px;
+     
+}
+.header-text p{
+    margin-top: 160px;
+   
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+    margin-left: -82px;
+}
+.header-text h1 span{
+    color:#1363df;
+} */
