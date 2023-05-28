@@ -42,28 +42,9 @@ i{
   color: white;
   font-size: 25px;
 }
-@media (min-width: 767px) {
-   nav {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    width: 100%;
-    float: none;
-    display: none;
-  }
 
-  nav ul li {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    width: 100%;
-    text-align: center;
-  }
-}
 nav ul li{
-
+text-transform: uppercase;
     display: inline-block;
     list-style: none;
     margin: 12px;
@@ -87,6 +68,11 @@ nav ul li a::after{
 nav Ul li a:hover::after{
     width: 100%;
 }
+
+
+
+
+
 .image-text{
   
     text-align: center;
