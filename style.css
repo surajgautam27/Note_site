@@ -11,7 +11,7 @@ html{
 .header{
     width: 100%;
     height:100vh;
-    background-image:url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/16-book-csa-images.jpg');
+    background-image:url('https://res.cloudinary.com/highereducation/images/f_auto,q_auto/v1664380388/AccreditedSchoolsOnline.org/GettyImages-1224685948_57309a473/GettyImages-1224685948_57309a473.jpg');
     background-size: cover;
     background-position: center;
 
@@ -36,7 +36,31 @@ nav{
 border-radius: 136px 135px;
 width: 88px;
 margin: -10px 0 -3px -80px;
-    
+  
+}
+i{
+  color: white;
+  font-size: 25px;
+}
+@media (min-width: 767px) {
+   nav {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    width: 100%;
+    float: none;
+    display: none;
+  }
+
+  nav ul li {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+  }
 }
 nav ul li{
 
@@ -153,7 +177,7 @@ nav Ul li a:hover::after{
   }
 
   /* Upload Form section */
-  #uploadForm{
+  /* #uploadForm{
     display: grid;
     align-items: center;
     justify-content: center;
@@ -162,6 +186,42 @@ nav Ul li a:hover::after{
     padding:10px;
     margin: 100px;
   }
+  */
+  .contain {
+    border-radius: 25px;
+    background-color: white;
+    border: 3px solid #0a183d ;
+    padding: 40px;
+    margin:40px;
+}
+
+.col-25 {
+    float: left;
+    width: 30%;
+    margin-top: 45px;
+}
+
+.col-75 {
+    float: left;
+    width: 70%;
+    margin-top: 35px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
   label{
 font-size: 20px;
 padding: 10px;
@@ -170,25 +230,8 @@ padding: 10px;
     padding: 10px;
     border: 2px solid black;
     border-radius: 10px;
+    width: 75%;
  
-  }
+  } 
 /*
 
-
-.header-text{
-    margin:20px;
-    font-size: 30px;
-     
-}
-.header-text p{
-    margin-top: 160px;
-   
-}
-.header-text h1{
-    font-size: 60px;
-    margin-top: 20px;
-    margin-left: -82px;
-}
-.header-text h1 span{
-    color:#1363df;
-} */
